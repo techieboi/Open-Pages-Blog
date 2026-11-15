@@ -1,0 +1,24 @@
+/* Experiment 6 - media queries on top of Bootstrap */
+
+/* default (desktop) */
+.blog-title {
+  font-size: 56px;
+}
+
+/* tablets */
+@media (max-width: 992px) {
+  .blog-title {
+    font-size: 44px;
+  }
+}
+
+/* mobile phones */
+@media (max-width: 576px) {
+  .blog-title {
+    font-size: 32px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+}
